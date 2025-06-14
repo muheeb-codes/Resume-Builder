@@ -1,11 +1,11 @@
-# 🌤️ Modern Weather App
+# 🚀 AI Resume Builder
 
 <div align="center">
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Open-Meteo](https://img.shields.io/badge/Open--Meteo-00A3E0?style=for-the-badge&logo=openweathermap&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT-412991?style=for-the-badge&logo=openai)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
@@ -13,121 +13,203 @@
 </div>
 
 <div align="center">
-  <img src="screenshot.png" alt="Weather App Screenshot" width="800px"/>
+  <img src="screenshot.png" alt="AI Resume Builder Demo" width="800px"/>
 </div>
 
-## ✨ Overview
-
-A beautiful and feature-rich weather application built with React and TypeScript that provides real-time weather information and forecasts. Experience weather data like never before with our intuitive interface and comprehensive features.
-
-## 🌟 Key Features
+## ✨ Features
 
 <div align="center">
 
-| 🎯 Feature | 📝 Description |
-|------------|---------------|
-| 🌍 **Real-time Weather** | Get current weather conditions for any location worldwide |
-| 📅 **7-Day Forecast** | View detailed weather forecasts for the upcoming week |
-| 🔍 **Smart Search** | Search for any city or location with instant results |
-| 📍 **Geolocation** | Get weather for your current location with one click |
-| 🌡️ **Unit Toggle** | Switch between Celsius and Fahrenheit |
-| 🌓 **Theme Support** | Toggle between dark and light themes |
-| ⚠️ **Weather Alerts** | Receive important weather warnings and alerts |
-| 📊 **Detailed Info** | Comprehensive weather data including temperature, wind, humidity, and more |
+| 🎨 Design | 🚀 Performance | 🔒 Security |
+|:---:|:---:|:---:|
+| Multiple Templates | Fast Generation | Secure Auth |
+| Custom Themes | Optimized PDFs | Data Privacy |
+| Responsive UI | Real-time Preview | API Security |
 
 </div>
 
-### 📊 Weather Information Includes:
-- 🌡️ Temperature
-- 💨 Wind speed
-- 💧 Humidity
-- 🌧️ Precipitation
-- ☀️ UV index
-- 🌅 Sunrise/Sunset times
-- 📱 Responsive design for all devices
-- 🔄 Recent searches history
+### 🌟 Key Features
 
-## 🛠️ Tech Stack
+- 🤖 **AI-Powered Content Generation**
+  - Smart resume suggestions
+  - Professional content optimization
+  - Industry-specific recommendations
 
-<div align="center">
+- 🎨 **Professional Templates**
+  - Modern designs
+  - Industry-specific layouts
+  - Customizable sections
 
-| Category | Technologies |
-|----------|--------------|
-| **Frontend** | React, TypeScript, Tailwind CSS |
-| **APIs** | Open-Meteo API |
-| **Icons** | Lucide Icons |
-| **Utilities** | date-fns |
+- 📱 **Responsive Design**
+  - Mobile-first approach
+  - Cross-device compatibility
+  - Print-friendly layouts
 
-</div>
+- 💾 **Smart Management**
+  - Multiple resume versions
+  - Auto-save functionality
+  - Cloud synchronization
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn
+```bash
+node >= 18.0.0
+npm >= 9.0.0
+```
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/weather-app.git
-cd weather-app
+git clone https://github.com/yourusername/ai-resume-builder.git
+
+# Navigate to project directory
+cd ai-resume-builder
 
 # Install dependencies
 npm install
-# or
-yarn install
 
-# Start the development server
+# Start development server
 npm run dev
-# or
-yarn dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to see the app in action! 🎉
+### Environment Setup
 
-## 📱 How to Use
+Create a `.env.local` file:
 
-1. 🔍 **Search for a Location**
-   - Enter a city name in the search bar
-   - Or use the geolocation button for your current location
+```env
+# API Keys
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+OPENAI_API_KEY=your_openai_api_key
 
-2. ⚙️ **Customize Your Experience**
-   - Toggle between Celsius and Fahrenheit
-   - Switch between dark and light themes
-   - View detailed weather information
+# Optional Configurations
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+```
 
-3. 📊 **Explore Weather Data**
-   - Check current conditions
-   - View 7-day forecast
-   - Monitor weather alerts
+## 🛠️ Tech Stack
 
-## 🔧 Configuration
+<div align="center">
 
-The app uses the Open-Meteo API for weather data. No API key is required as it's a free and open API.
+### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?logo=tailwind-css)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.0-black?logo=framer)
+![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-0.0.1-black)
+
+### Backend
+![Supabase](https://img.shields.io/badge/Supabase-2.0-3ECF8E?logo=supabase)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT-412991?logo=openai)
+![Node.js](https://img.shields.io/badge/Node.js-18.0-green?logo=node.js)
+
+### Tools
+![ESLint](https://img.shields.io/badge/ESLint-8.0-4B32C3?logo=eslint)
+![Prettier](https://img.shields.io/badge/Prettier-3.0-F7B93E?logo=prettier)
+![Husky](https://img.shields.io/badge/Husky-8.0-000000?logo=husky)
+
+</div>
+
+## 📁 Project Structure
+
+```
+ai-resume-builder/
+├── src/
+│   ├── components/          # React components
+│   │   ├── ui/             # Reusable UI components
+│   │   ├── forms/          # Form components
+│   │   └── templates/      # Resume templates
+│   ├── lib/                # Utility functions
+│   │   ├── supabase.ts     # Supabase client
+│   │   └── openai.ts       # OpenAI integration
+│   ├── styles/             # Global styles
+│   └── types/              # TypeScript definitions
+├── public/                 # Static assets
+└── ...config files
+```
+
+## 🎨 Customization
+
+### Templates
+```typescript
+// Example template configuration
+const template = {
+  name: 'Professional',
+  sections: ['header', 'experience', 'education'],
+  theme: 'modern',
+  layout: 'standard'
+};
+```
+
+### Themes
+```typescript
+// Example theme configuration
+const theme = {
+  colors: {
+    primary: '#2563eb',
+    secondary: '#64748b',
+    background: '#ffffff'
+  },
+  typography: {
+    fontFamily: 'Inter',
+    fontSize: '16px'
+  }
+};
+```
 
 ## 🤝 Contributing
 
-We love your input! We want to make contributing to this project as easy and transparent as possible.
+We love your input! We want to make contributing to AI Resume Builder as easy and transparent as possible, whether it's:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- 🐛 Reporting a bug
+- 💡 Discussing the current state of the code
+- 🔧 Submitting a fix
+- ✨ Proposing new features
+- 📝 Becoming a maintainer
+
+### Development Process
+
+1. Fork the repo and create your branch from `main`
+2. If you've added code that should be tested, add tests
+3. If you've changed APIs, update the documentation
+4. Ensure the test suite passes
+5. Make sure your code lints
+6. Issue that pull request!
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+By contributing, you agree that your contributions will be licensed under its MIT License.
 
 ## 🙏 Acknowledgments
 
-- Weather data provided by [Open-Meteo](https://open-meteo.com/)
-- Icons by [Lucide](https://lucide.dev/)
+<div align="center">
+
+| Technology | Purpose |
+|:---:|:---:|
+| [Next.js](https://nextjs.org/) | Frontend Framework |
+| [Tailwind CSS](https://tailwindcss.com/) | Styling |
+| [OpenAI](https://openai.com/) | AI Integration |
+| [Supabase](https://supabase.com/) | Backend & Auth |
+| [Shadcn UI](https://ui.shadcn.com/) | UI Components |
+
+</div>
+
+## 📞 Support
+
+<div align="center">
+
+[![GitHub Issues](https://img.shields.io/github/issues/yourusername/ai-resume-builder?style=for-the-badge)](https://github.com/yourusername/ai-resume-builder/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/ai-resume-builder?style=for-the-badge)](https://github.com/yourusername/ai-resume-builder/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/yourusername/ai-resume-builder?style=for-the-badge)](https://github.com/yourusername/ai-resume-builder/network/members)
+
+</div>
 
 ---
 
 <div align="center">
-Made with ❤️ by [Your Name]
-</div> 
+
+Made with ❤️ by Muheeb Ahmed
+
+</div>

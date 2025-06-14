@@ -210,9 +210,9 @@ By contributing, you agree that your contributions will be licensed under its MI
 
 <div align="center">
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Muheeb Ahmed
 
-[![Twitter](https://img.shields.io/twitter/follow/yourusername?style=social)](https://twitter.com/yourusername)
-[![GitHub](https://img.shields.io/github/followers/yourusername?style=social)](https://github.com/yourusername)
+[![Twitter](https://img.shields.io/twitter/follow/yourusername?style=social)](https://twitter.com/MuheebAhme2025)
+[![GitHub](https://img.shields.io/github/followers/muheeb-codes?style=social)](https://github.com/muheeb-codes)
 
 </div>

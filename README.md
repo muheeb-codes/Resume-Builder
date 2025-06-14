@@ -63,7 +63,7 @@ npm >= 9.0.0
 
 ```bash
 # Clone the repository
-git clone https://github.com/muheeb-codes/ai-resume-builder.git
+git clone https://github.com/yourusername/ai-resume-builder.git
 
 # Navigate to project directory
 cd ai-resume-builder
@@ -210,6 +210,9 @@ By contributing, you agree that your contributions will be licensed under its MI
 
 <div align="center">
 
-Made with ❤️ by Muheeb Ahmed
+Made with ❤️ by [Your Name]
+
+[![Twitter](https://img.shields.io/twitter/follow/yourusername?style=social)](https://twitter.com/yourusername)
+[![GitHub](https://img.shields.io/github/followers/yourusername?style=social)](https://github.com/yourusername)
 
 </div>

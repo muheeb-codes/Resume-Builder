@@ -63,7 +63,7 @@ npm >= 9.0.0
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-resume-builder.git
+git clone https://github.com/muheeb-codes/ai-resume-builder.git
 
 # Navigate to project directory
 cd ai-resume-builder
